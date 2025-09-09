@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:42211/categories/</loc>
-  </url><url>
-    <loc>http://localhost:42211/tags/</loc>
-  </url><url>
-    <loc>http://localhost:42211/about/</loc>
-  </url><url>
-    <loc>http://localhost:42211/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:37977/nomad-tech/zh/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:37977/nomad-tech/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:37977/nomad-tech/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

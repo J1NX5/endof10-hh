@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Willkommen on EndOf10-HH</title>
-    <link>http://localhost:42211/</link>
-    <description>Recent content in Willkommen on EndOf10-HH</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <atom:link href="http://localhost:42211/index.xml" rel="self" type="application/rss+xml" />
+    <title>Willkommen on Your Name - Digital Nomad | Tech | Life</title>
+    <link>http://localhost:37977/nomad-tech/</link>
+    <description>Recent content in Willkommen on Your Name - Digital Nomad | Tech | Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language><atom:link href="http://localhost:37977/nomad-tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Über uns</title>
+      <link>http://localhost:37977/nomad-tech/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37977/nomad-tech/about/</guid>
+      <description>&lt;h1 id=&#34;das-sind-wir&#34;&gt;Das sind wir&lt;/h1&gt;
+&lt;p&gt;Das ist meine &lt;strong&gt;Über uns Seite&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
