@@ -1,6 +1,3 @@
 ---
-title: "Willkommen"
+title: "Home"
 ---
-
-# Hallo Hugo!
-Das ist meine **Startseite**.
