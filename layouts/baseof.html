@@ -5,6 +5,9 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
   </head>
   <body>
-    {{ block "main" . }}{{ end }}
+    {{ partial "header.html" . }}
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
   </body>
 </html>

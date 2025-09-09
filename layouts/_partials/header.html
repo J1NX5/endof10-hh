@@ -1,0 +1,18 @@
+<header class="site-header">
+  <a class="logo" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+  {{ with .Site.Menus.main }}
+  <nav aria-label="Hauptmenü">
+    <ul class="nav">
+      {{ range . }}
+        {{ $isActive := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+        <li>
+          <a href="{{ .URL | relLangURL }}"
+             {{ if $isActive }}aria-current="page" class="active"{{ end }}>
+            {{ .Name }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+  {{ end }}
+</header>
